@@ -1,0 +1,39 @@
+user_name,user_department,access_time,record_id,record_department,operation,datetime,suspicion_score,alert_level,reasons
+Dr_Ali,Cardiology,2026-11-14 08:10,R001,Cardiology,READ,2026-11-14 08:10:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 08:15,R002,Cardiology,READ,2026-11-14 08:15:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 08:20,R003,Cardiology,UPDATE,2026-11-14 08:20:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 08:25,R004,Cardiology,READ,2026-11-14 08:25:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 08:30,R005,Cardiology,READ,2026-11-14 08:30:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 08:35,R006,Cardiology,READ,2026-11-14 08:35:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 08:40,R007,Cardiology,UPDATE,2026-11-14 08:40:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 08:45,R008,Cardiology,READ,2026-11-14 08:45:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 08:50,R009,Cardiology,READ,2026-11-14 08:50:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 08:55,R010,Cardiology,READ,2026-11-14 08:55:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 09:00,R011,Cardiology,READ,2026-11-14 09:00:00,7,High Alert,Unusual access volume
+Dr_Ali,Cardiology,2026-11-14 09:05,R012,Neurology,READ,2026-11-14 09:05:00,10,High Alert,"Unusual access volume, Outside user's department"
+Dr_Ali,Cardiology,2026-11-14 10:30,R013,Cardiology,READ,2026-11-14 10:30:00,0,Normal,No suspicious activity
+Dr_Ali,Cardiology,2026-11-15 09:00,R014,Cardiology,UPDATE,2026-11-15 09:00:00,0,Normal,No suspicious activity
+Dr_Sara,Neurology,2026-11-14 08:30,R015,Neurology,READ,2026-11-14 08:30:00,0,Normal,No suspicious activity
+Dr_Sara,Neurology,2026-11-14 09:15,R016,Neurology,UPDATE,2026-11-14 09:15:00,0,Normal,No suspicious activity
+Dr_Sara,Neurology,2026-11-14 11:05,R017,Cardiology,READ,2026-11-14 11:05:00,3,Medium Alert,Outside user's department
+Dr_Sara,Neurology,2026-11-14 12:00,R018,Neurology,READ,2026-11-14 12:00:00,0,Normal,No suspicious activity
+Dr_Sara,Neurology,2026-11-14 21:15,R019,Cardiology,READ,2026-11-14 21:15:00,5,High Alert,"Outside working hours, Outside user's department"
+Dr_Sara,Neurology,2026-11-15 10:00,R020,Neurology,READ,2026-11-15 10:00:00,0,Normal,No suspicious activity
+Nurse_Maya,Pediatrics,2026-11-14 08:00,R021,Pediatrics,READ,2026-11-14 08:00:00,0,Normal,No suspicious activity
+Nurse_Maya,Pediatrics,2026-11-14 09:30,R022,Pediatrics,UPDATE,2026-11-14 09:30:00,0,Normal,No suspicious activity
+Nurse_Maya,Pediatrics,2026-11-14 10:00,R023,Pediatrics,READ,2026-11-14 10:00:00,0,Normal,No suspicious activity
+Nurse_Maya,Pediatrics,2026-11-14 13:00,R024,Pediatrics,READ,2026-11-14 13:00:00,0,Normal,No suspicious activity
+Nurse_Maya,Pediatrics,2026-11-14 18:30,R025,Pediatrics,READ,2026-11-14 18:30:00,0,Normal,No suspicious activity
+Nurse_Maya,Pediatrics,2026-11-15 09:00,R026,Pediatrics,READ,2026-11-15 09:00:00,0,Normal,No suspicious activity
+Dr_Omar,Cardiology,2026-11-14 08:10,R027,Cardiology,READ,2026-11-14 08:10:00,7,High Alert,Unusual access volume
+Dr_Omar,Cardiology,2026-11-14 08:15,R028,Neurology,READ,2026-11-14 08:15:00,10,High Alert,"Unusual access volume, Outside user's department"
+Dr_Omar,Cardiology,2026-11-14 08:20,R029,Neurology,UPDATE,2026-11-14 08:20:00,10,High Alert,"Unusual access volume, Outside user's department"
+Dr_Omar,Cardiology,2026-11-14 08:25,R030,Cardiology,READ,2026-11-14 08:25:00,7,High Alert,Unusual access volume
+Dr_Omar,Cardiology,2026-11-14 08:30,R031,Cardiology,READ,2026-11-14 08:30:00,7,High Alert,Unusual access volume
+Dr_Omar,Cardiology,2026-11-14 08:35,R032,Cardiology,READ,2026-11-14 08:35:00,7,High Alert,Unusual access volume
+Dr_Omar,Cardiology,2026-11-14 08:40,R033,Cardiology,READ,2026-11-14 08:40:00,7,High Alert,Unusual access volume
+Dr_Omar,Cardiology,2026-11-14 08:45,R034,Cardiology,READ,2026-11-14 08:45:00,7,High Alert,Unusual access volume
+Dr_Omar,Cardiology,2026-11-14 08:50,R035,Cardiology,READ,2026-11-14 08:50:00,7,High Alert,Unusual access volume
+Dr_Omar,Cardiology,2026-11-14 08:55,R036,Cardiology,READ,2026-11-14 08:55:00,7,High Alert,Unusual access volume
+Dr_Omar,Cardiology,2026-11-14 09:00,R037,Neurology,READ,2026-11-14 09:00:00,10,High Alert,"Unusual access volume, Outside user's department"
+Dr_Omar,Cardiology,2026-11-14 22:30,R038,Neurology,DELETE,2026-11-14 22:30:00,5,High Alert,"Outside working hours, Outside user's department"
